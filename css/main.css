@@ -566,8 +566,8 @@ img {
     left: 0;
     overflow: hidden;
     z-index: 100;
-    -webkit-transition: height 1s ease;
-    transition: height 1s ease;
+    -webkit-transition: height 0.5s ease;
+    transition: height 0.5s ease;
   }
   .grow-height {
     height: 85%;
