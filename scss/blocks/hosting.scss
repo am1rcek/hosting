@@ -169,10 +169,16 @@
     .hosting__item:not(:last-child){
         margin-right: 3px;
     }
+    .hosting__btn{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:276px){
     .hosting__list{
         max-width: 230px;
     }
     .hosting__btn{
-        font-size: 9px;
+        font-size: 5px;
     }
 }
