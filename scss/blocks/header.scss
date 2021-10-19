@@ -149,6 +149,7 @@
         left: 0;
         overflow: hidden;
         z-index: 100;
+        transition: height 0.5s ease;
     }
     .grow-height{
         height: 85%;
