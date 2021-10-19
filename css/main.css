@@ -871,6 +871,14 @@ img {
   }
 }
 
+@media screen and (max-width: 440px) {
+  .cloud__list {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
 .services {
   padding-bottom: 133px;
 }
