@@ -164,3 +164,15 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width:335px){
+    .hosting__item:not(:last-child){
+        margin-right: 3px;
+    }
+    .hosting__list{
+        max-width: 230px;
+    }
+    .hosting__btn{
+        font-size: 9px;
+    }
+}
