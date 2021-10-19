@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACL,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,IAAI,CAGvB",
+    "sources": [
+        "../scss/blocks/hosting.scss"
+    ],
+    "names": [],
+    "file": "hosting.min.css"
+}
