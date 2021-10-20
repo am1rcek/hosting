@@ -1,6 +1,7 @@
 .price {
     @include list-unstyled;
-
+    margin-bottom: 105px;
+    
     &__item {
         background: #fff;
         border: 1.5px solid #c4c4c4;
