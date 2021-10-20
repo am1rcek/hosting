@@ -1,0 +1,146 @@
+.awesome {
+    padding-bottom: 110px;
+
+    &__box {
+        padding: 80px 90px 90px 118px;
+        background: #f7fafe;
+        border-radius: 16px;
+        background-size: 1272px 392px;
+        background-image: url("/img/awesome-bg.svg");
+        background-repeat: no-repeat;
+        background-size: 1245px 392px;
+        
+    }   
+}
+.make-website {
+
+    &__title {
+        max-width: 85%;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 88px;
+        text-align: center;
+        color: #2e2e2e;
+        margin-bottom: 40px;
+    }
+
+    &__link {
+        margin: 0 auto;
+        max-width: 215px;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+        background: #b00000;
+        border-radius: 8px;
+        padding: 12px 16px;
+        text-decoration: none;
+        text-align: center;
+        border: 2px solid transparent;
+        transition: background 0.4s ease;
+        
+
+        &::before{
+            content: "";
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background-size: 25px 25px;
+            background-repeat: no-repeat;
+            background-image: url("/img/awesome-phone.svg");
+            margin-right: 10px;
+        }
+
+        &:hover{
+            background: #000;
+        }
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .make-website__title{
+        font-size: 50px;
+        line-height: 65px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .make-website__title{
+        font-size: 41px;
+        line-height: 51px;    
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .make-website__title{
+        font-size: 32px;
+        line-height: 40px;
+   
+    }
+    .awesome__box{
+        background-image: none;
+    }
+    .awesome__box{
+        padding: 80px 44px 90px 45px;
+    }
+    .make-website__link{
+        max-width: 200px;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 10px 14px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .make-website__title{
+        font-size: 29px;
+        line-height: 37px;
+   
+    }
+    .make-website__link{
+        max-width: 190px;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 8px 14px;
+    }
+    
+}
+
+@media screen and (max-width:420px){
+    .make-website__title{
+        font-size: 20px;
+        line-height: 26px;
+   
+    }
+    .make-website__link{
+        max-width: 170px;
+        font-size: 10px;
+        padding: 7px 14px;
+    }
+    
+}
+
+@media screen and (max-width:360px){
+    .make-website__title{
+        font-size: 15px;
+        line-height: 22px;
+   
+    }
+    .make-website__link{
+        max-width: 140px;
+        font-size: 9px;
+        padding: 4px 10px;
+
+        &::before{
+            width: 15px;
+            height: 15px;
+            background-size: 15px 15px;
+        }
+    }
+    
+}
